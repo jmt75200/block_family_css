@@ -1,0 +1,36 @@
+.clearfix:before,.clearfix:after{
+    zoom: 1;
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+.container{
+  background-color: salmon;
+  padding: 0 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+.block{
+  width: 100%;
+  background-color: #000;
+  padding: 30px 0;
+  margin: 10px 0;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*Medium screen 800px to 1000px*/
+@media screen and (min-width:800px) and (max-width:1000px){
+  .container{
+    background-color: orange;
+  }
+}
+
+/*Large Screen min-width 1001px*/
